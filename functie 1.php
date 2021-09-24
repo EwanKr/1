@@ -3,7 +3,7 @@
     {
         $output = "";
             for ($i = 1; $i <= 1000000; $i++) {
-            $output .= 'loop ' . $i . '<br>';}
+            $output .= $i . ' Euro ' . '<br>';}
             return $output;
     }
     $value = doSomething();
